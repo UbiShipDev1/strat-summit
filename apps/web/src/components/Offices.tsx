@@ -32,16 +32,8 @@ export function Offices({
   return (
     <ul role="list" {...props}>
       <li>
-        <Office name="Vancouver Island" invert={invert}>
-          Serving properties from Victoria to Campbell River and the Comox
-          Valley.
-        </Office>
-      </li>
-      <li>
-        <Office name="Based in" invert={invert}>
-          Strathcona region
-          <br />
-          British Columbia, Canada
+        <Office name="Mount Washington" invert={invert}>
+          Serving Mount Washington properties and the surrounding Comox Valley.
         </Office>
       </li>
     </ul>
